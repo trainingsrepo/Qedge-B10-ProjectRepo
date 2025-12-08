@@ -26,6 +26,7 @@ private void txtcustKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_t
                     String firstname = rs1.getString("firstname");
                     txtfname.setText(firstname.trim());               
                 }
+
 				#feature102 changes by ethan in october2024
 				 private void initComponents() {
 
@@ -55,4 +56,26 @@ private void txtcustKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_t
             }
         });
 		#end of feature102 changes
-                
+
+				#feature101 code changes by vivek on october 2024
+				 public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        jButton2.setText("Find");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        jButton4.setText("Cancel");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+		#end of feature101changes
+		
+
